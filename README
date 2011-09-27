@@ -11,9 +11,12 @@ But manually syncing BitBucket and GitHub is tedious and error prone. I develope
 
 How to use it?
 -----------------------------------------
-* Call "bitbucket2github" to mirror all public repos in BitBucket account to GitHub. It will prompt you for BitBucket username, GitHub username and GitHub API key.
-* Call "github2bitbucket" to mirror all public repos in GitHub account to BitBucket. It will prompt you for GitHub username, BitBucket username and BitBucket password.
+* Call "bitbucket2github" to mirror all public repos in BitBucket account to GitHub. It will prompt you for BitBucket username, GitHub 
+username and GitHub API key.
+* Call "github2bitbucket" to mirror all public repos in GitHub account to BitBucket. It will prompt you for GitHub username, BitBucket 
+username and BitBucket password.
 
+* Note: you must have your SSH public key set up in GitHub, otherwise, you'll get an error indicating the repository can't be found.
 
 Latest Version
 -----------------------------------------
